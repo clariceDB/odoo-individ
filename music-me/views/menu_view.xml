@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<odoo>
+    <menuitem id="music_menu"
+              name="Student Information System" />
+
+    <!--Student-->
+    <act_window id="action_songs"
+      name="Song List"
+      res_model="music-me.song"
+      view_mode="tree,form"
+	/>
+
+    <menuitem id="menu_songs"
+              name="Songs"
+              parent="music_menu"
+              action="action_songs"
+    />
+
+</odoo>
