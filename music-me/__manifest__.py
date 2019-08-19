@@ -23,8 +23,13 @@
 
     # always loaded
     'data': [
-        # 'security/ir.model.access.csv',
-        'menu_view.xml'
+        'security/ir.model.access.csv',
+        'security/music-me_security.xml',
+        'views/songs_view.xml',
+        'views/artist_view.xml',
+        'views/genre_view.xml',
+        'views/album_view.xml',
+        'views/menu_view.xml',
         'views/views.xml',
         'views/templates.xml',
     ],

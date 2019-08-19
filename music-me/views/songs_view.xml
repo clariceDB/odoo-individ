@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<odoo>
+    <record id="view_form_song" model="ir.ui.view">
+        <field name="name">Song</field>
+        <field name="model">music.song</field>
+        <field name="arch" type="xml">
+            <form>
+                <field name="name"/>
+                <field name="artist"/>
+                <field name="album"/>
+                <field name="genre"/>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_tree_song" model="ir.ui.view">
+        <field name="name">Songs</field>
+        <field name="model">music.song</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+                <field name="artist"/>
+                <field name="album"/>
+                <field name="genre"/>
+            </tree>
+        </field>
+    </record>
+</odoo>

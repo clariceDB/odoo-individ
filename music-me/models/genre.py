@@ -1,13 +1,13 @@
 from odoo import models, fields, api
 
 
-class LikedList(models.Model):
-    _name = 'music.liked_list'
+class Genre(models.Model):
+    _name = 'music.genre'
 
     # user = fields.Char('res.user')
-    artist = fields.Many2many('music.artist')
-    genre = fields.Many2many('music.genre')
+    name = fields.Char(string='Genre')
     album = fields.Many2many('music.album')
+    song = fields.Many2many('music.song')
 
     # (comodel_name='sis.course', inverse_name='department', string="Courses", readonly=True, copy=True)
 

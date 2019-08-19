@@ -1,7 +1,6 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_music-me_music-me,music-me.music-me,model_music-me_music-me,base.user,1,1,1,0
-access_music-me_album,music-me.album,model_music-me_music-me,base.user,1,1,1,0
-access_music-me_genre,music-me.genre,model_music-me_genre,base.user,1,1,1,0
-access_music-me_artist,music-me.artist,model_music-me_artist,base.user,1,1,1,0
-access_music-me_song,music-me.song,model_music-me_song,base.user,1,1,1,0
-access_music-me_liked_list,music-me.liked_list,model_music-me_liked_list,base.user,1,1,1,0
+access_music-me_album,music-me.album,model_music_album,music_group,1,1,1,0
+access_music-me_genre,music-me.genre,model_music_genre,music_group,1,1,1,0
+access_music-me_artist,music-me.artist,model_music_artist,music_group,1,1,1,0
+access_music-me_song,music-me.song,model_music_song,music_group,1,1,1,0
+access_music-me_liked_list,music-me.liked_list,model_music_liked_list,music_group,1,1,1,0

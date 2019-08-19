@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <odoo>
     <menuitem id="music_menu"
-              name="Student Information System" />
+              name="Music" />
 
-    <!--Student-->
+    <!--songs-->
     <act_window id="action_songs"
       name="Song List"
-      res_model="music-me.song"
+      res_model="music.song"
       view_mode="tree,form"
 	/>
 
@@ -14,6 +14,32 @@
               name="Songs"
               parent="music_menu"
               action="action_songs"
+    />
+
+    <!--album-->
+    <act_window id="action_album"
+      name="Album List"
+      res_model="music.album"
+      view_mode="tree,form"
+	/>
+
+    <menuitem id="menu_albums"
+              name="Albums"
+              parent="music_menu"
+              action="action_album"
+    />
+
+    <!--artist-->
+    <act_window id="action_artist"
+      name="Artist List"
+      res_model="music.artist"
+      view_mode="tree,form"
+	/>
+
+    <menuitem id="menu_artist"
+              name="Artists"
+              parent="music_menu"
+              action="action_artist"
     />
 
 </odoo>
