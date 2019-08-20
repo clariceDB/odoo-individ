@@ -42,4 +42,29 @@
               action="action_artist"
     />
 
+  <!--genre-->
+    <act_window id="action_genre"
+      name="Genre List"
+      res_model="music.genre"
+      view_mode="tree,form"
+	/>
+
+    <menuitem id="menu_genre"
+              name="Genres"
+              parent="music_menu"
+              action="action_genre"
+    />
+
+    <!--liked_list-->
+    <act_window id="action_liked_list"
+      name="Liked List"
+      res_model="music.liked_list"
+      view_mode="tree,form"
+	/>
+
+    <menuitem id="menu_liked_list"
+              name="Liked List"
+              parent="music_menu"
+              action="action_liked_list"
+    />
 </odoo>

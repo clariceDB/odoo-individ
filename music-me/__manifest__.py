@@ -29,6 +29,7 @@
         'views/artist_view.xml',
         'views/genre_view.xml',
         'views/album_view.xml',
+        'views/liked_list_view.xml',
         'views/menu_view.xml',
         'views/views.xml',
         'views/templates.xml',

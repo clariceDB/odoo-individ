@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<odoo>
+    <record id="view_form_like_list" model="ir.ui.view">
+        <field name="name">Liked List</field>
+        <field name="model">music.liked_list</field>
+        <field name="arch" type="xml">
+            <form>
+                <group>
+                    <field name="liked_albums"/>
+                    <field name="album_name"/>
+                </group>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_tree_album" model="ir.ui.view">
+        <field name="name">Albums</field>
+        <field name="model">music.liked_list</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="liked_albums"/>
+            </tree>
+        </field>
+    </record>
+</odoo>

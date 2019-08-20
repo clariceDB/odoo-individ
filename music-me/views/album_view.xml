@@ -5,9 +5,12 @@
         <field name="model">music.album</field>
         <field name="arch" type="xml">
             <form>
-                <field name="name"/>
-                <field name="artist"/>
-                <field name="songs"/>
+                <group>
+                    <field name="name"/>
+                    <field name="artist"/>
+                    <field name="songs"/>
+                    <field name="genre"/>
+                </group>
             </form>
         </field>
     </record>
@@ -20,6 +23,7 @@
                 <field name="name"/>
                 <field name="artist"/>
                 <field name="songs"/>
+                <field name="genre"/>
             </tree>
         </field>
     </record>

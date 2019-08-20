@@ -1,20 +1,21 @@
 <?xml version="1.0"?>
 <odoo>
-    <record id="view_form_artist" model="ir.ui.view">
-        <field name="name">Artist</field>
-        <field name="model">music.artist</field>
+    <record id="view_form_genre" model="ir.ui.view">
+        <field name="name">Genre</field>
+        <field name="model">music.genre</field>
         <field name="arch" type="xml">
             <form>
                 <group>
                     <field name="name"/>
+                <!--<field name="albums"/>-->
                 </group>
             </form>
         </field>
     </record>
 
-    <record id="view_tree_artist" model="ir.ui.view">
-        <field name="name">Artists</field>
-        <field name="model">music.artist</field>
+    <record id="view_tree_genre" model="ir.ui.view">
+        <field name="name">Genres</field>
+        <field name="model">music.genre</field>
         <field name="arch" type="xml">
             <tree>
                 <field name="name"/>
