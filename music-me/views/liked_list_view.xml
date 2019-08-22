@@ -8,6 +8,7 @@
                 <group>
                     <field name="liked_albums"/>
                     <field name="album_name"/>
+                    <field name="album_artist"/>
                 </group>
             </form>
         </field>
@@ -19,6 +20,7 @@
         <field name="arch" type="xml">
             <tree>
                 <field name="liked_albums"/>
+                <field name="album_artist"/>
             </tree>
         </field>
     </record>

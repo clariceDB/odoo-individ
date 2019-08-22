@@ -7,7 +7,7 @@
             <form>
                 <group>
                     <field name="name"/>
-                    <field name="artist"/>
+                    <field name="album_artist"/>
                     <field name="songs"/>
                     <field name="genre"/>
                 </group>
@@ -21,7 +21,7 @@
         <field name="arch" type="xml">
             <tree>
                 <field name="name"/>
-                <field name="artist"/>
+                <field name="album_artist"/>
                 <field name="songs"/>
                 <field name="genre"/>
             </tree>
