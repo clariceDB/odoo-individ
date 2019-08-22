@@ -25,7 +25,7 @@
     'data': [
         'security/ir.model.access.csv',
         'security/music-me_security.xml',
-        'views/songs_view.xml',
+        'views/song_view.xml',
         'views/artist_view.xml',
         'views/genre_view.xml',
         'views/album_view.xml',
